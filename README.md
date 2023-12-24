@@ -1,5 +1,7 @@
 # Dotfiles
 
+![Preview Workspace](./images/preview.png)
+
 ### Prerequisites
 - Install Brew (MacOS package manager)
 - Install Fig (Shell Utils)
