@@ -12,6 +12,10 @@
 
 - Install ``StarShip`` (Fish theme) (https://starship.rs/)
 
+## Tmux
+#### Note
+- Ctrl + b + i to install plugin + themes
+
 #### Features
 - Theme StarShip
 
@@ -25,5 +29,5 @@
 - Theme Catppuccin Mocha
 - MacOS keys mapping (read file ```./kitty/kitty.conf```)
 
-### Note
+#### Note
 - Replace your favourite font in ```./kitty/kitty.conf```
