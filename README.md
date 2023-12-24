@@ -24,3 +24,6 @@
 #### Features
 - Theme Catppuccin Mocha
 - MacOS keys mapping (read file ```./kitty/kitty.conf```)
+
+### Note
+- Replace your favourite font in ```./kitty/kitty.conf```
