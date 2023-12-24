@@ -1,4 +1,4 @@
-# Dotfile for MacOS
+# Dotfiles
 
 ### Prerequisites
 - Install Brew (MacOS package manager)
