@@ -1,4 +1,4 @@
 -- Disable plugins
 return {
-  { "nvim-pack/nvim-spectre", enabled = false },
+  -- { "nvim-pack/nvim-spectre", enabled = false },
 }
