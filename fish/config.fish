@@ -59,6 +59,6 @@ if status is-interactive
     # neovim
     set -x PATH $PATH $HOME/.local/share/nvim/mason/bin
 
+    # xdg
     set -U XDG_CONFIG_HOME $HOME/.config
-    set -U JAVA_HOME $HOME/Documents/mybin/jdk-21.0.1.jdk/Contents/Home
 end
