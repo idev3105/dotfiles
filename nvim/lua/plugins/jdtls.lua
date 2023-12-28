@@ -27,13 +27,13 @@ return {
         local root_dir = opts.root_dir(fname)
         local project_name = opts.project_name(root_dir)
         local cmd = vim.deepcopy(opts.cmd)
-        local lombok_path = os.getenv("HOME") .. "/.local/share/nvim/mason/packages/lombok.jar"
+        local lombok_path = os.getenv("HOME") .. "/.local/share/nvim/mason/packages/jdtls/lombok.jar"
         if project_name then
           vim.list_extend(cmd, {
             "-configuration",
             opts.jdtls_config_dir(project_name),
-            "-javaagent:" .. lombok_path,
-            "-Xbootclasspath/a:" .. lombok_path,
+            "--jvm-arg=-javaagent:" .. lombok_path,
+            "--jvm-arg=-Xbootclasspath/a:" .. lombok_path,
             "-data",
             opts.jdtls_workspace_dir(project_name),
           })
