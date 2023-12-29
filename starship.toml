@@ -18,3 +18,16 @@ format = "$symbol[${ram}( | ${swap})]($style) "
 threshold = 70
 style = "bold dimmed white"
 disabled = false
+
+[time]
+disabled = false
+format = '🕙[\[ $time \]]($style) '
+time_format = '%T'
+utc_time_offset = '+7'
+
+[shell]
+fish_indicator = '🐟'
+powershell_indicator = '_'
+unknown_indicator = 'mystery shell'
+style = 'cyan bold'
+disabled = false
