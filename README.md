@@ -23,7 +23,7 @@
 
 ## Neovim
 #### Prerequisite
-- Install 
+- Install ripgrep (live grep telescope search)
 #### Features
 - Base on LazyVim
 ## Kiity
