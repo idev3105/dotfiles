@@ -1,3 +1,4 @@
+-- This is lsp plugin for java
 return {
   "mfussenegger/nvim-jdtls",
   opts = function()

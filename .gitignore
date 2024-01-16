@@ -3,3 +3,5 @@ configstore
 yarn
 tmux/plugins
 htop
+lazygit/state.yml
+github-copilot

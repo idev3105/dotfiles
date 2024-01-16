@@ -12,13 +12,14 @@ end
 
 # enviroment variable
 # go
-set -U GOPATH $HOME/Documents/mybin/go/v1.20.5
+set -gx GOPATH $HOME/Documents/mybin/go/v1.20.5
+set -gx GOBIN $HOME/go/bin
 set -gx PATH $PATH $GOPATH/bin
 set -gx PATH $PATH $HOME/go/bin
 
 # node
 set -gx PATH $PATH $HOME/Documents/mybin/node/node-v18.16.0-darwin-arm64/bin
-set -U NPM_TOKEN XXXXX-XXXXX-XXXXX-XXXXX
+set -x NPM_TOKEN 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
 
 # protoc
 set -gx PATH $PATH $HOME/Documents/mybin/protoc/v23.2/bin
@@ -33,8 +34,8 @@ set -gx PATH $PATH $(yarn global bin)
 set -gx PATH $PATH $HOME/Documents/mybin/gradle-8.3/bin
 
 # editor
-set -U EDITOR nvim
-set -U VISUAL nvim
+set -gx EDITOR nvim
+set -gx VISUAL nvim
 
 # jabba
 if test -s "/Users/idev/.jabba/jabba.fish"
@@ -42,26 +43,26 @@ if test -s "/Users/idev/.jabba/jabba.fish"
 end
 
 # bun
-set -U BUN_INSTALL $HOME/.bun
+set -gx BUN_INSTALL $HOME/.bun
 set -gx PATH $PATH $BUN_INSTALL/bin
 
 # zig
 set -gx PATH $PATH $HOME/Documents/mybin/zig-macos-aarch64-0.12.0-dev.627+de4d1ea25
 
 # android
-set -U ANDROID_HOME $HOME/Library/Android/sdk
+set -gx ANDROID_HOME $HOME/Library/Android/sdk
 set -gx PATH $PATH $ANDROID_HOME/emulator
 set -gx PATH $PATH $ANDROID_HOME/platform-tools
 
 set -gx PATH /opt/homebrew/opt/ruby/bin:$PATH
-set -U LDFLAGS -L/opt/homebrew/opt/ruby/lib
-set -U CPPFLAGS -I/opt/homebrew/opt/ruby/include
+set -gx LDFLAGS -L/opt/homebrew/opt/ruby/lib
+set -gx CPPFLAGS -I/opt/homebrew/opt/ruby/include
 
 # neovim
 set -gx PATH $PATH $HOME/.local/share/nvim/mason/bin
 
 # xdg
-set -U XDG_CONFIG_HOME $HOME/.config
+set -gx XDG_CONFIG_HOME $HOME/.config
 
 # pnpm
 set -gx PNPM_HOME /Users/idev/Library/pnpm
@@ -76,3 +77,6 @@ if not contains "$HOME/.cargo/bin" $PATH
     # Prepend it for proper override of system-installed rustc
     set -gx PATH "$HOME/.cargo/bin" $PATH
 end
+
+# mysql
+set -gx PATH $PATH $HOME/Documents/mybin/mysql-8.0.35-macos13-arm64/bin
