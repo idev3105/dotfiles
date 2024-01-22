@@ -6,5 +6,6 @@ vim.opt.winbar = "%=%m %f"
 
 vim.opt.relativenumber = false
 
-vim.fn.sign_define("DapBreakpoint", { text = "🔴" })
-vim.fn.sign_define("DapStopped", { text = "⚡" })
+vim.filetype.add({
+  extension = { http = "http" },
+})
