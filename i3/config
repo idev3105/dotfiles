@@ -34,7 +34,7 @@ exec --no-startup-id xss-lock --transfer-sleep-lock -- i3lock --nofork
 # and nm-applet is a desktop environment-independent system tray GUI for it.
 exec --no-startup-id nm-applet
 
-exec --no-startup-id picom -b
+# exec --no-startup-id picom -b
 exec --no-startup-id feh --bg-fill --zoom fill ~/Documents/wallpaperflare.com_wallpaper.jpg
 exec_always --no-startup-id $HOME/.config/polybar/launch.sh
 
@@ -202,3 +202,5 @@ for_window [class="^.*"] border pixel 1 # hide window title
 gaps inner 5
 gaps outer 5
 
+# lock screen
+bindsym Control+Mod1+l exec "i3lock-fancy -p -t 'Dong vao chat tay'"

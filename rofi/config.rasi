@@ -1,15 +1,18 @@
-configuration {
-  sidebar-mode:  true;
-  hide-scrollbar: true;
-  kb-cancel: "Escape,Control+bracketleft";
-  kb-mode-next: "Alt+Right,Shift+Right,Control+Tab";
-  kb-mode-previous: "Alt+Left,Shift+Left,Control+ISO_Left_Tab";
-  /* kb-row-select:; */
-  modi: "combi,drun,window,ssh";
-  combi-modi: "window,drun";
-  show: "combi";
-  monitor: "-4";
-  terminal: "wezterm";
+
+configuration{
+    modi: "run,drun,window";
+    icon-theme: "Oranchelo";
+    show-icons: true;
+    terminal: "kitty";
+    drun-display-format: "{icon} {name}";
+    location: 0;
+    disable-history: false;
+    hide-scrollbar: true;
+    display-drun: "   Apps ";
+    display-run: "   Run ";
+    display-window: " 﩯  Window";
+    display-Network: " 󰤨  Network";
+    sidebar-mode: true;
 }
 
-@theme "./themes/onedark"
+@theme "kanagawa"
