@@ -28,7 +28,7 @@ return {
         local root_dir = opts.root_dir(fname)
         local project_name = opts.project_name(root_dir)
         local cmd = vim.deepcopy(opts.cmd)
-        local lombok_path = os.getenv("HOME") .. "/.local/share/nvim/mason/packages/jdtls/lombok.jar"
+        local lombok_path = os.getenv("HOME") .. "/.config/nvim/lombok-1.18.31.jar"
         if project_name then
           vim.list_extend(cmd, {
             "-configuration",
