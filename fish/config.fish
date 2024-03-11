@@ -80,3 +80,7 @@ end
 
 # mysql
 set -gx PATH $PATH $HOME/Documents/mybin/mysql-8.0.35-macos13-arm64/bin
+
+# Setting PATH for Python 3.12
+# The original version is saved in /Users/idev/.config/fish/config.fish.pysave
+set -x PATH "/Library/Frameworks/Python.framework/Versions/3.12/bin" "$PATH"

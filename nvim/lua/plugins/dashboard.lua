@@ -12,4 +12,3 @@ return {
     opts.config.header = vim.split(logo, "\n")
   end,
 }
--- this is commend for test
