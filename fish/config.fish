@@ -71,13 +71,6 @@ if not string match -q -- $PNPM_HOME $PATH
 end
 # pnpm end
 
-# rustup shell setup for fish
-# Check if ~/.cargo/bin is already in PATH efficiently
-if not contains "$HOME/.cargo/bin" $PATH
-    # Prepend it for proper override of system-installed rustc
-    set -gx PATH "$HOME/.cargo/bin" $PATH
-end
-
 # mysql
 set -gx PATH $PATH $HOME/Documents/mybin/mysql-8.0.35-macos13-arm64/bin
 
