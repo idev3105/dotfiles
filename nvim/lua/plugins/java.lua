@@ -34,7 +34,7 @@ return {
             "-configuration",
             opts.jdtls_config_dir(project_name),
             "--jvm-arg=-javaagent:" .. lombok_path,
-            "--jvm-arg=-Xbootclasspath/a:" .. lombok_path,
+            -- "--jvm-arg=-Xbootclasspath/a:" .. lombok_path,
             "-data",
             opts.jdtls_workspace_dir(project_name),
           })
