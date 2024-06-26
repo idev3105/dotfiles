@@ -1,0 +1,4 @@
+[submodule "nvim"]
+	path = nvim
+	url = git@github.com:khanhcongpruj123/nvim_config.git
+	branch = personal_config
