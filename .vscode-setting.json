@@ -1,0 +1,69 @@
+{
+  // editor setting
+  "editor.fontSize": 13,
+  "editor.scrollbar.verticalScrollbarSize": 10,
+  "editor.scrollbar.horizontalScrollbarSize": 10,
+  "editor.scrollbar.vertical": "hidden",
+  "editor.scrollbar.horizontal": "hidden",
+  "editor.indentSize": "tabSize",
+  "editor.fontFamily": "Hack Nerd Font, monospace",
+  // workbech
+  "workbench.activityBar.orientation": "vertical",
+  "workbench.colorTheme": "Kanagawa Paper",
+  // chat
+  "chat.editor.fontFamily": "Hack Nerd Font, monospace",
+  // debug
+  "debug.console.fontFamily": "Hack Nerd Font, monospace",
+  // terminal
+  "terminal.integrated.fontFamily": "Hack Nerd Font, monospace",
+  "terminal.integrated.fontSize": 14,
+  "terminal.integrated.cursorStyle": "line",
+  "terminal.external.windowsExec": "wt",
+  // git
+  "git.autofetch": true,
+  // files
+  "markdown.preview.fontFamily": "Hack Nerd Font, monospace",
+  "scm.inputFontFamily": "Hack Nerd Font, monospace",
+  // customer ui by apc
+  "apc.electron": {
+    "frame": true,
+    "transparent": true,
+    "titleBarStyle": "hiddenInset",
+    "vibrancy": "ultra-dark",
+    "trafficLightPosition": {
+      "x": 15,
+      "y": 13
+    },
+    "trafficLightPositionRight": {
+      "x": 15,
+      "y": 13
+    }
+  },
+  "apc.font.family": "Hack Nerd Font, monospace",
+  "apc.header": {
+    "height": 36,
+    "compact": 22,
+    "fontSize": 12,
+    "fontWeight": "bold"
+  },
+  "apc.listRow": {
+    "height": 24
+  },
+  "apc.sidebar.titlebar": {
+    "fontSize": 11,
+    "fontWeight": "bold"
+  },
+  "apc.stylesheet": {
+    ".title-label > h2": "display: none",
+    ".editor-actions": "display: none",
+    ".pane-body": "padding: 5px"
+  },
+  "breadcrumbs.enabled": false,
+  "workbench.editor.editorActionsLocation": "hidden",
+  "editor.minimap.enabled": false,
+  "workbench.activityBar.location": "bottom",
+  "workbench.layoutControl.enabled": false,
+  "window.commandCenter": false,
+  "apc.menubar.compact": true,
+  "window.density.editorTabHeight": "compact"
+}
