@@ -17,8 +17,6 @@
   // terminal
   "terminal.integrated.fontFamily": "Hack Nerd Font, monospace",
   "terminal.integrated.fontSize": 14,
-  "terminal.integrated.cursorStyle": "line",
-  "terminal.external.windowsExec": "wt",
   // git
   "git.autofetch": true,
   // files
@@ -28,7 +26,6 @@
   "apc.electron": {
     "frame": true,
     "transparent": true,
-    "titleBarStyle": "hiddenInset",
     "vibrancy": "ultra-dark",
     "trafficLightPosition": {
       "x": 15,
@@ -55,8 +52,9 @@
   },
   "apc.stylesheet": {
     ".title-label > h2": "display: none",
-    ".editor-actions": "display: none",
-    ".pane-body": "padding: 5px"
+    ".editor-actions": "display:none",
+    ".pane-body": "padding: 8px",
+    ".pane-header": "padding: 0 8px",
   },
   "breadcrumbs.enabled": false,
   "workbench.editor.editorActionsLocation": "hidden",
